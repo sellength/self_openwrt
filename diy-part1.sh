@@ -17,7 +17,7 @@
 #echo 'src-git helloworld https://github.com/fw876/helloworld' >>feeds.conf.default
 #echo 'src-git passwall https://github.com/xiaorouji/openwrt-passwall' >>feeds.conf.default
 #vssr
-https://github.com/jerrykuku/luci-app-vssr.git
+git clone https://github.com/jerrykuku/luci-app-vssr.git
 git clone https://github.com/jerrykuku/lua-maxminddb.git
 #passall&SSR+
 git clone https://github.com/kenzok8/openwrt-packages.git
