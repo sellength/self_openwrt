@@ -18,3 +18,7 @@
 # echo 'src-git  passwall2 https://github.com/xiaorouji/openwrt-passwall2.git ' >>feeds.conf.default
 # echo 'src-git passwall https://github.com/xiaorouji/openwrt-passwall' >>feeds.conf.default
 
+git clone https://github.com/xiaorouji/openwrt-passwall2.git package/luci-app-passwall2
+git clone https://github.com/xiaorouji/openwrt-passwall.git package/luci-app-passwall
+git clone https://github.com/jerrykuku/lua-maxminddb.git package/lua-maxmindd
+git clone https://github.com/jerrykuku/luci-app-vssr.git package/luci-app-vssr
