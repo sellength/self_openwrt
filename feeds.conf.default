@@ -1,1 +1,5 @@
 src-git packages https://github.com/kenzok8/openwrt-packages.git
+src-git luci-app-passwall2 https://github.com/xiaorouji/openwrt-passwall2.git
+src-git luci-app-passwall https://github.com/xiaorouji/openwrt-passwall.git 
+src-git lua-maxminddb https://github.com/jerrykuku/lua-maxminddb.git
+src-git luci-app-vssr https://github.com/jerrykuku/luci-app-vssr.git
