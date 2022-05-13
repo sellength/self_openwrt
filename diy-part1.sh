@@ -29,4 +29,4 @@
 
 
 
-git clonbe https://github.com/kenzok8/openwrt-packages.git packages/
+git clone https://github.com/kenzok8/openwrt-packages.git packages/
