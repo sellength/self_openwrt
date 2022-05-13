@@ -1,8 +1,8 @@
 #kenzo源
-#src-git kenzo https://github.com/kenzok8/openwrt-packages
-#src-git small https://github.com/kenzok8/small
+src-git kenzo https://github.com/kenzok8/openwrt-packages
+src-git small https://github.com/kenzok8/small
 #kiddin源
-src-git kiddin https://github.com/kiddin9/openwrt-packages.git
+#src-git kiddin https://github.com/kiddin9/openwrt-packages.git
 src-git packages https://git.openwrt.org/feed/packages.git
 src-git luci https://git.openwrt.org/project/luci.git
 src-git routing https://git.openwrt.org/feed/routing.git
