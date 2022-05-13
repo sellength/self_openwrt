@@ -18,8 +18,10 @@
 #echo 'src-git kenzo https://github.com/kenzok8/openwrt-packages' >>feeds.conf.default
 #kiddin源
 #echo 'src-git kiddin https://github.com/kiddin9/openwrt-packages.git' >>feeds.conf.default
-git clone https://github.com/xiaorouji/openwrt-passwall.git package/luci-app-passwall
+#git clone https://github.com/xiaorouji/openwrt-passwall.git package/luci-app-passwall
 
 # Add a git clone source
-git clone https://github.com/jerrykuku/lua-maxminddb.git package/lua-maxmindd
-git clone https://github.com/jerrykuku/luci-app-vssr.git package/luci-app-vssr
+#git clone https://github.com/jerrykuku/lua-maxminddb.git package/lua-maxmindd
+#git clone https://github.com/jerrykuku/luci-app-vssr.git package/luci-app-vssr
+echo 'src-git luci-app-vssr https://github.com/jerrykuku/luci-app-vssr.git' >>feeds.conf.default
+echo 'src-git lua-maxminddb https://github.com/jerrykuku/lua-maxminddb.git' >>feeds.conf.default
