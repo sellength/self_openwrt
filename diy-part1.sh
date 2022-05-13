@@ -29,4 +29,4 @@
 
 
 
-echo 'src-git packages https://github.com/kenzok8/openwrt-packages.git' >>feeds.conf.default
+git clonbe https://github.com/kenzok8/openwrt-packages.git packages
